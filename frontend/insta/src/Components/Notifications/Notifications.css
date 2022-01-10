@@ -1,0 +1,72 @@
+.notifications{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.notifications-body{
+    background: white;
+    height: 450px;
+    width: 550px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.follow-request-header{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.follow-request-header .profile-view-head{
+    width: 250px;
+    margin-left: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.follow-request-header .follow{
+    width: 70px;
+    font-size: 35px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-requests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-action{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -33px;
+}
+
+.request-action .follow-action{
+    height: 30px;
+    width: 60px;
+}
+
+.delete{
+    border: 2px solid red;
+    color: red;
+}
+
+.notifications .follow-request-header .follow{
+    margin-left: -10px;
+}

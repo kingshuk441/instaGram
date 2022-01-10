@@ -1,0 +1,63 @@
+.follow-component-body{
+    height: 100px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.follow-user-image{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.follow-user-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.follow-user-info{
+    width: 250px;
+    margin-left: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.follow-user-info div{
+    height: 25px;
+
+}
+
+.follow-user-name{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.follow-user-username{
+    font-weight: lighter;
+    font-size: 20px;
+    color: grey;
+
+}
+
+.follow-action-btn{
+    cursor: pointer;
+}
+
+.follow-action{
+    height: 50px;
+    width: 80px; 
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid #5295F6;
+    border-radius: 3px;
+    color: #5295F6;
+}

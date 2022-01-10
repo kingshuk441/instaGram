@@ -1,0 +1,179 @@
+.setting{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.setting .photo-edit{
+    height: 450px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.setting .userimage{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.setting .profile-photo{
+    
+}
+
+.setting .userimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.setting .upload-photo{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    background: white;
+    border-radius: 3px;
+
+}
+
+#photo-image{
+    width: 90px;
+    margin-left: 20px;
+
+}
+
+.setting .upload-photo .upload-btn{
+    width: 100px;
+    height: 25px;
+    margin-right: 20px;
+
+}
+
+.setting .form-edit{
+    border: 1px solid lightgray;
+    height: 450px;
+    width: 450px;
+    background: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3px;
+
+}
+
+.setting .user-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.setting .key{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color:#5295F6;
+}
+
+.setting .user-info input{
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid lightgray;
+
+}
+
+.setting .photo-edit-header{
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    background: #5295F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    border-radius: 5px;
+
+
+}
+
+.setting .options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.setting .options button{
+    margin: 20px;
+    height: 20px;
+    width: 80px;
+}
+.setting .edit button{
+    background: white;
+    outline: none;
+    border: 2px solid #5295F6;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: #5295F6;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.setting .save button{
+    background: #5295F6;
+    outline: none;
+    border: 2px solid #5295F6;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.setting .cancel button{
+    background: red;
+    outline: none;
+    border: 2px solid red;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;  
+    cursor: pointer;
+
+}
+
+.action{
+    display:flex;
+    align-items: center;
+}

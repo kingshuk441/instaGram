@@ -1,0 +1,144 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-user-info{
+    height: 170px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.profile-user-image{
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+}
+
+.profile-user-image img{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-user-detail-info{
+    height: 150px;
+    width: 500px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-user-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+}
+
+.profile-user-username{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.profile-user-name{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.profile-user-bio{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.profile-stats{
+    display: flex;
+    align-items: center;
+}
+
+.profile-stats div{
+    margin-right: 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.profile-stats div strong{
+    margin-right: 5px;
+}
+
+.profile-user-view-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-view-head{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #5295F6;
+}
+
+.profile-view-body{
+    margin-top: 20px;
+    overflow: auto;
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.follow-view-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 513px;
+    align-items: center;
+    margin-bottom: 30px;
+    height: auto;
+    overflow: auto;
+    border: 1px solid lightgray;
+}
+
+.follow-view-list{
+    width: 100%;
+    min-height: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+.follow-entity{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 480px;
+    margin: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.post-entity{
+    height: 270px;
+    background: white;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin: 19px;
+}
+
+
+
+

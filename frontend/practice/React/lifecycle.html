@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Lifecycle</title>
+    <!--Actual react logic-->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <!--Platform dependent code (here for web we use the dom code)-->
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <!--babel code (converts jsx code into react code (i.e. JS code since react is also written in JS))-->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    class LifeCycle extends React.Component{
+        constructor(){
+            console.log("Inside constructor");
+            super();
+            this.state ={
+                count:0
+            };
+        }
+
+        //just used once in the start while initializing the ui
+        componentDidMount(){
+            // API data fetch
+            console.log("Inside ComponentDidMount !");
+            this.setState({
+                count:10
+            })
+        }
+
+        //once setState is used the component is now in update phase
+        componentDidUpdate(){
+            console.log("Inside ComponentDidUpdate !");
+        }
+
+        render(){
+            console.log("Inside render method !")
+            return <h1>Hello I am lifecycle method</h1>
+        }
+
+    }
+    ReactDOM.render(<LifeCycle/> , document.getElementById("root"));
+    </script>
+</body>
+</html>

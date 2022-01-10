@@ -1,0 +1,99 @@
+.profile-user-post{
+    height: 300px;
+    width: 300px;
+}
+
+.profile-user-post img{
+    height: 170px;
+    width: 300px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.profile-caption{
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 5px ;
+    height: 20px;
+}
+
+.profile-caption-footer{
+    border-top: 1px-solid lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.profile-post-image-caption{
+    font-size: 15px;
+    /* font-weight: lighter; */
+    margin-left: 5px;
+    height: 30px;
+    overflow: auto;
+}
+
+.profile-post-delete{
+    margin-top: -51px;
+    height: 15px;
+    width: 50px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1.5px solid red;
+    margin-left: 245px;
+    cursor: pointer;
+}
+
+.profile-post-reaction-tab{
+display: flex;
+font-size: 11px;
+font-weight: bolder;
+margin-left: 5px;
+}
+
+
+.post-likes{
+    margin-right: 10px;
+}
+
+.post-comments{
+
+}
+
+.profile-comments{
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+    overflow: auto;
+}
+
+.profile-comment-info{
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 25px;
+}
+
+.profile-user-commented{
+    max-width: 100px;
+}
+
+.profile-comment{
+    margin-left: 2px;
+    width: 210px;
+    overflow: scroll;
+
+}
+
+.remove-comment{
+    color: grey;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
